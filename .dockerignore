@@ -1,0 +1,12 @@
+.git
+.env
+.env.*
+!.env.example
+.overlay-applied
+database/database.sqlite
+node_modules
+tests
+vendor
+public/build
+public/hot
+storage/logs/*
