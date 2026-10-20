@@ -1,6 +1,4 @@
 @import 'tailwindcss';
-@import '@fontsource-variable/public-sans';
-@import '@fontsource-variable/bricolage-grotesque';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
