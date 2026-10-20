@@ -1,4 +1,6 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/public-sans';
+@import '@fontsource-variable/bricolage-grotesque';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -6,8 +8,8 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
-    --font-display: 'Bricolage Grotesque', 'Public Sans', ui-sans-serif, sans-serif;
+    --font-sans: 'Public Sans Variable', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Bricolage Grotesque Variable', 'Public Sans Variable', ui-sans-serif, sans-serif;
 
     --color-paper: #f3f5f2;
     --color-ink-50: #f7f9f8;
